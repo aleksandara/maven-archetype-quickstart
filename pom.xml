@@ -51,4 +51,44 @@ under the License.
       <version>3.8.1</version>
     </dependency>
   </dependencies>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.rat</groupId>
+          <artifactId>apache-rat-plugin</artifactId>
+          <version>0.8</version>
+          <executions>
+            <execution>
+              <id>rat-check</id>
+              <phase>test</phase>
+              <goals>
+                <goal>check</goal>
+              </goals>
+              <configuration>
+                <excludes>
+                  <exclude>.gitignore</exclude>
+                  <exclude>DEPENDENCIES</exclude>
+                  <exclude>README.txt</exclude>
+                  <exclude>README.md</exclude>
+                  <exclude>*.sh</exclude>
+                  <exclude>.git/**</exclude>
+                  <exclude>*.iml</exclude>
+                  <exclude>.idea/**</exclude>
+                  <exclude>**/generated-sources/**</exclude>
+                  <exclude>**/.gitattributes</exclude>
+                  <exclude>src/test/**</exclude>
+                  <exclude>src/it/**</exclude>
+                  <exclude>.repository/**</exclude>
+                  <exclude>**/archetype-resources/**</exclude>
+                </excludes>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
 </project>

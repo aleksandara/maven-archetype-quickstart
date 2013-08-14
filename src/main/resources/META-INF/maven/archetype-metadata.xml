@@ -30,4 +30,13 @@ under the License.
       <directory>src/test/java</directory>
     </fileSet>
   </fileSets>
+
+  <requiredProperties>
+    <requiredProperty key="compilerSourceVersion">
+      <defaultValue>1.7</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="compilerTargetVersion">
+      <defaultValue>1.7</defaultValue>
+    </requiredProperty>
+  </requiredProperties>
 </archetype-descriptor>
