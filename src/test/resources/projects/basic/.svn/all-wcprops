@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/asf/!svn/ver/1195049/maven/archetypes/trunk/maven-archetype-quickstart/src/test/resources/projects/basic
+END
+archetype.properties
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1029507/maven/archetypes/trunk/maven-archetype-quickstart/src/test/resources/projects/basic/archetype.properties
+END
+goal.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/asf/!svn/ver/1195049/maven/archetypes/trunk/maven-archetype-quickstart/src/test/resources/projects/basic/goal.txt
+END
